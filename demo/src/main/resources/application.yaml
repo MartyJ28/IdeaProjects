@@ -1,0 +1,23 @@
+#person:
+#  name: 花花
+#  age: 2
+#  birth: 2010/10/10
+#  pet:
+#    name: dd
+#    age: 1
+#  interets:
+#    - 读书
+#    - 看报
+#    - 学习
+#  animals: {猫, 狗, 鸟}
+#  score:
+#    chin: 90
+#    math: 100
+#  salary: [100.99,200.99,300.99]
+spring:
+  mvc:
+    static-path-pattern: /res/**
+
+
+  resources:
+    static-locations: [classpath:/sta/]
