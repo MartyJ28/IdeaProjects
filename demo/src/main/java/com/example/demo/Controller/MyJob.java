@@ -9,5 +9,6 @@ public class MyJob implements Job {
     @Override
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
         System.out.println("任务执行");
+        //存在暂存区
     }
 }
