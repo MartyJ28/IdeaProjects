@@ -13,4 +13,7 @@ public class hello {
     public Person person(){
         return person;
     }
+
+    public String a;
+    //注释
 }
